@@ -4,8 +4,13 @@ Der RDF Book Manager ist eine einfache Buchverwaltung der einen Überblick über
 
 Außerdem soll über eine einfache Oberfläche, alle ausgeliehenen/vorhandenen Bücher aufgelistet und der Status (vorhanden/ausgeliehen) geändert werden können.
 
+## Usage
+
+Run `uv run main.py`
 
 ## Development
+
+Das Projekt nutzt den Python-Manager [uv](https://docs.astral.sh/uv/) zur Verwaltung des Projekts.
 
 Die Softwarearchitektur ist an das drei Schichten Modell angelehnt.
 

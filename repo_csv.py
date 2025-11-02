@@ -20,7 +20,7 @@ def save_books(filename, list_of_books):
     
     with open(filename, "w", newline="") as csvfile:
         # define the columns
-        fieldnames = ["isbn", "title", "subject", "total", "available"]
+        fieldnames = ["isbn", "title", "categorie", "total", "available"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=";")
         writer.writeheader()
         writer.writerows(list_of_books)
